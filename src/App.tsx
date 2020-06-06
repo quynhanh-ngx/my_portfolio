@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import linkedIn from './linkedin.svg';
 import github from './github.svg';
+import logo from './carrot.svg';
 import './App.css';
 
 function App() {
