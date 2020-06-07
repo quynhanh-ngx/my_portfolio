@@ -14,24 +14,33 @@ function App() {
                 <p>
                     I am a Computer Science student at the University of North Carolina at Charlotte.
                 </p>
+                <div className="programming-skills">
+                    <div className="skill-list">
                 <h2>Languages</h2>
                 <ul>
                     <li>Java</li>
                     <li>Python</li>
-                    <li>JavaScript & TypeScript</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
                 </ul>
+                    </div>
+                    <div className="skill-list">
                 <h2>Backend</h2>
                 <ul>
                     <li>Spring</li>
                     <li>Django</li>
                     <li>Flask</li>
                 </ul>
+                    </div>
+                    <div className="skill-list">
                 <h2>Frontend</h2>
                 <ul>
                     <li>React</li>
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
+                </div>
+                </div>
 
 
                 <div className="social-media">
