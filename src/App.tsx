@@ -14,36 +14,38 @@ function App() {
                 <p>
                     I am a Computer Science student at the University of North Carolina at Charlotte.
                 </p>
+            </header>
+            <main className="App-main">
                 <div className="programming-skills">
-                    <div className="skill-list">
-                <h2>Languages</h2>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                </ul>
+                    <div className="programming-skill-list">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                        </ul>
                     </div>
-                    <div className="skill-list">
-                <h2>Backend</h2>
-                <ul>
-                    <li>Spring</li>
-                    <li>Django</li>
-                    <li>Flask</li>
-                </ul>
+                    <div className="programming-skill-list">
+                        <h2>Backend</h2>
+                        <ul>
+                            <li>Spring</li>
+                            <li>Django</li>
+                            <li>Flask</li>
+                        </ul>
                     </div>
-                    <div className="skill-list">
-                <h2>Frontend</h2>
-                <ul>
-                    <li>React</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
+                    <div className="programming-skill-list">
+                        <h2>Frontend</h2>
+                        <ul>
+                            <li>React</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
 
+                    </div>
                 </div>
-                </div>
-
-
+            </main>
+            <footer className= "App-footer">
                 <div className="social-media">
                     <a href="https://www.linkedin.com/in/anhnguyenq/" target="_blank" rel="noopener noreferrer"
                        className="icon-wrapper linkedin">
@@ -66,7 +68,8 @@ function App() {
                         </div>
                     </a>
                 </div>
-            </header>
+                <p>Copyright Quynh Anh Nguyen © 2020</p>
+            </footer>
         </div>
     );
 }
