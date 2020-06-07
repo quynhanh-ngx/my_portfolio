@@ -41,22 +41,41 @@
     display: inline-flex;
 }
 
-.programming-skills{
-    display: inline-flex;
+.programming-skills {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .social-media-logo {
     height: 5vmin;
     padding: 1vmin;
 }
-.skill-list{
-    padding: 0 25vmin 0 25vmin;
+
+.skill-list {
+    webkit-box-flex: 1;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
 }
 
 h1, h2, h3, h4, h5 {
     margin: 0;
 }
-ul{
+
+ul {
     list-style: none;
     padding-left: 0;
 
