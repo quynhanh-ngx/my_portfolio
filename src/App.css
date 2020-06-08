@@ -52,11 +52,26 @@
 
 @keyframes App-logo-spin {
     50% {
-        transform: rotate(0deg);
+        transform: rotateY(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotateY(360deg);
     }
+}
+
+@keyframes text-wind-effect {
+    50% {
+        transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(500px) rotateY(-5deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+p {
+    animation: text-wind-effect infinite 1s linear;
+}
 }
 
 .social-media {
@@ -95,12 +110,18 @@
     transition: .3s;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h3, h4, h5 {
     margin: 0;
+}
+
+h2{
+    margin: 0;
+    transform: perspective(500px) rotateY(30deg);
 }
 
 ul {
     list-style: none;
     padding-left: 0;
+    transform: perspective(500px) rotateY(-30deg);
 
 }
