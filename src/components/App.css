@@ -1,0 +1,57 @@
+.App {
+    text-align: center;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    /*background: rgba(128, 0, 128, 0.1) center / 200px 200px round;*/
+    bottom: 0;
+    left: 0;
+    /*position: absolute;*/
+    right: 0;
+    top: 0
+}
+
+
+@keyframes text-wind-effect {
+    50% {
+        transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(500px) rotateY(-5deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    p {
+        animation: text-wind-effect infinite 1s linear;
+    }
+}
+
+.stars {
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    p {
+        animation: stars-animation infinite 1s linear;
+    }
+}
+
+@keyframes stars-animation {
+    50% {
+        transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(500px) rotateY(-5deg);
+    }
+}
+
+
+h1, h3, h4, h5 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    transform: perspective(500px) rotateY(30deg);
+}
+

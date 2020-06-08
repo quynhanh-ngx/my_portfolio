@@ -1,0 +1,17 @@
+.programming-skill-list {
+    webkit-box-flex: 1;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.programming-skill-list > ul {
+    list-style: none;
+    padding-left: 0;
+    transform: perspective(500px) rotateY(-30deg);
+}
