@@ -10,7 +10,7 @@ function App() {
         {Header()}
         {Main()}
         {Footer()}
-        <div className="stars "></div>
+        <div className="star star1 "></div>
     </div>
     );
 }
